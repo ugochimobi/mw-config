@@ -127,6 +127,20 @@ if ( $wgDBname === 'gratisdatawiki' ) {
 			],
 		],
 	];
+	$wgWBRepoSettings['string-limits'] = [
+		'multilang' => [
+			'length' => 250, // length constraint
+		],
+		'VT:monolingualtext' => [
+			'length' => 400,
+		],
+		'VT:string' => [
+			'length' => 400,
+		],
+		'PT:url' => [
+			'length' => 500,
+		],
+	];
 }
 
 if ( $wgDBname === 'gratispaideiawiki' ) {
