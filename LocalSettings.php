@@ -3651,9 +3651,9 @@ $wgConf->settings += [
 		'default' => true,
 	],
 
-	// T11025
+	// NearbyPages
 	'wgNearbyPagesUrl' => [
-		'default' => '/w/api.php',
+		'default' => 'https://en.wikipedia.org/w/api.php',
 	],
 
 	// New User Email Notification
